@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
-}
+.main-page-image{
+  min-width:100%; 
+  min-height:100vh; 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(page-background.jpg);
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  /* background-image:(linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5),url('page-background.jpg'))); */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+
+
+}
+
+.title-box{
+  text-align: center;
+
+}
+
+
+.text-boxes{
+  margin: 2em;
+  width: 50%;
   color: white;
+  background-color: rgb(0, 0, 0, 0.2);
+  padding: 2em;
+
 }
 
-.App-link {
-  color: #61dafb;
+.navbar{
+  position: fixed !important; /* Set the navbar to fixed position */
+  top: 0;
+  width: 100%;
+  color:white !important;
+  background-color: rgb(0, 0, 0, 0);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-link{
+  color:white !important;
+  font-size: 20px !important;
+  margin-left: 1em;
 }
+
+.nav-link:hover, .box-link:hover{
+  color:darkblue !important;
+  text-decoration-color: darkblue;
+
+  transition-duration: 0.3s;
+
+
+
+}
+
+.header{
+  color: white;
+  font-size: 100px;
+  letter-spacing: 3px;
+  font-weight: lighter;
+
+
+}
+
+.small-header{
+  color: white;
+  font-size: 75px;
+  letter-spacing: 3px;
+  font-weight: lighter;
+
+
+}
+
+.box-header{
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: lighter;
+
+
+}
+
+.box-header-medium{
+  margin: 0px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: lighter;
+
+
+}
+
+.box-header-small{
+  text-align: center;
+  margin: 0px;
+
+  font-size: 30px;
+  font-weight: lighter;
+
+
+}
+
+.box-link{
+  align-self: center;
+  text-align: center;
+  margin: 0px;
+
+  font-size: 30px;
+  font-weight: lighter;
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: white;
+
+
+}
+
+
+
+.form-control {
+  background-color:  rgb(0, 0, 0, 0.4) !important;
+  border: 0px !important;
+  color: white !important;
+
+}
+
+::placeholder, .form-text { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: grey !important;
+  opacity: 1; /* Firefox */
+}
+
+.hint{
+  color: white !important;
+}
+
