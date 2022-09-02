@@ -1,3 +1,8 @@
+# Notes
+
+Followed [this tutorial](https://dev.to/calvinpak/how-to-read-write-google-sheets-with-react-193l)
+to submit data via google sheets
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
